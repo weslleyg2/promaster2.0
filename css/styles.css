@@ -98,7 +98,7 @@ body.light-theme .buttons .button:hover {
   margin-right: 5px;
 }
 
-@media(max-width: 550px) {
+@media(min-width: 320px) {
   .example {
     width: 100%;
     height: 100px;
@@ -133,4 +133,44 @@ body.light-theme .buttons .button:hover {
   .example .buttons a {
     display: inline-block;
   }
+  .Warranty{
+    width: 90%;
+  }
+}
+@media(min-width: 375px)  {
+  .example{
+      margin: 0 -4em 0 -2.5em;
+      width: 360px;
+      height: 100px;
+  }
+  .gallery_img .col-1-3 img{
+    padding-bottom: 50px;
+  }
+  .Warranty{
+    width: 90%;
+  }
+  .gallery_imgs_2_4{
+    grid-template-rows: 112px 150px;
+    grid-gap: 20px;
+    padding: 0px 20px 0px 20px;
+  }
+}
+@media(min-width:425px){
+  .example{
+    margin: 0 -4em 0 -3.5em;
+    width: 375px;
+    height: 100px;
+}
+.gallery_img .col-1-3 img{
+  padding-bottom: 50px;
+}
+.Warranty{
+  width: 90%;
+}
+.gallery_imgs_2_4{
+  grid-template-rows: 112px 150px;
+  grid-gap: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
 }

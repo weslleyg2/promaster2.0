@@ -210,7 +210,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-@media (max-width: 550px) {
+@media (min-width: 320px) {
 
   .flipdown {
     width: 312px;
@@ -279,5 +279,34 @@
   .flipdown .rotor-bottom,
   .flipdown .rotor:after {
     height: 25px;
+  }
+}
+/* {
+  .flipdown .rotor, .flipdown .rotor-leaf, .flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear, .flipdown .rotor-top, .flipdown .rotor-bottom, .flipdown .rotor:after {
+    width: 30px;
+}
+  
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before,
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    left: 66px;
+  }
+  
+} */
+ @media (min-width:375px){
+  .flipdown .rotor, .flipdown .rotor-leaf, .flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear, .flipdown .rotor-top, .flipdown .rotor-bottom, .flipdown .rotor:after {
+    width: 22px;
+ }
+ .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before,
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    left: 53px;
+  }
+}
+@media (min-width:425px){
+  .flipdown .rotor, .flipdown .rotor-leaf, .flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear, .flipdown .rotor-top, .flipdown .rotor-bottom, .flipdown .rotor:after {
+    width: 30px;
+ }
+ .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before,
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    left: 69px;
   }
 }

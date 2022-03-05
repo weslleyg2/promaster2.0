@@ -139,7 +139,7 @@ body.light-theme .buttons .button:hover {
 }
 @media(min-width: 375px)  {
   .example{
-      margin: 0 -4em 0 -2.5em;
+      margin: 0 -4em 0 0em;
       width: 415px;
       height: 100px;
   }
